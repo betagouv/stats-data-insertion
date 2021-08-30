@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -18,30 +19,26 @@ export default function Home() {
         <div className={styles.flexbox}>
           <div className={styles.map}>
             <div
-              class="flourish-embed flourish-map"
+              className="flourish-embed flourish-map"
               data-src="visualisation/7095136"
               data-height="700px"
             >
-              <script src="https://public.flourish.studio/resources/embed.js"></script>
+              <Script src="https://public.flourish.studio/resources/embed.js"></Script>
             </div>{" "}
           </div>
           <div className={styles.legend}>
             <h3>data.insertion - Carte de suivi</h3>
             <p>
-              Le code couleur de la carte exprime la maturité du CD dans l'intégration et
-              l’exploitation des flux de données existants (CNAF et PE)
+              Le code couleur de la carte exprime la maturité du CD dans l’intégration et l’exploitation des flux de données existants (CNAF et PE)
             </p>
             <p>
-              <span className={styles.darkblue}></span>&nbsp; Le CD automatise l’integration de
-              l’ensemble des flux et l’exploite dans ses process d’orientation et accompagnement
+              <span className={styles.darkblue}></span>&nbsp; Le CD automatise l’intégration de l’ensemble des flux et l’exploite dans ses process d’orientation et accompagnement
             </p>
             <p>
-              <span className={styles.middleblue}></span>&nbsp; Le CD intègre l’ensemle des flux
-              existants mais ne l’exploite pas encore pleinement dans ses process
+              <span className={styles.middleblue}></span>&nbsp; Le CD intègre l’ensemle des flux existants mais ne l’exploite pas encore pleinement dans ses process
             </p>
             <p>
-              <span className={styles.lightblue}></span>&nbsp; L’ensemble des flux existants n’est
-              pas encore intégre dans les logiciels metiers
+              <span className={styles.lightblue}></span>&nbsp; L’ensemble des flux existants n’est pas encore intégré dans les logiciels métiers
             </p>
           </div>
         </div>
