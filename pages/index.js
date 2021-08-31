@@ -29,16 +29,30 @@ export default function Home() {
           <div className={styles.legend}>
             <h3>data.insertion - Carte de suivi</h3>
             <p>
-              Le code couleur de la carte exprime la maturité du CD dans l’intégration et l’exploitation des flux de données existants (CNAF et PE)
+              Le code couleur de la carte exprime la maturité du CD dans l’intégration et
+              l’exploitation des flux de données existants (CNAF et PE)
             </p>
             <p>
-              <span className={styles.darkblue}></span>&nbsp; Le CD automatise l’intégration de l’ensemble des flux et l’exploite dans ses process d’orientation et accompagnement
+              <span className={styles.redpoint}></span>&nbsp; Le CD participe à une expérimentation
+              avec data.insertion
+            </p>
+
+            <p>
+              <span className={styles.darkblue}></span>&nbsp; Le CD automatise l’intégration de
+              l’ensemble des flux et l’exploite dans ses process d’orientation et accompagnement
+            </p>
+
+            <p>
+              <span className={styles.darkblue}></span>&nbsp; Le CD automatise l’intégration de
+              l’ensemble des flux et l’exploite dans ses process d’orientation et accompagnement
             </p>
             <p>
-              <span className={styles.middleblue}></span>&nbsp; Le CD intègre l’ensemle des flux existants mais ne l’exploite pas encore pleinement dans ses process
+              <span className={styles.middleblue}></span>&nbsp; Le CD intègre l’ensemble des flux
+              existants mais ne l’exploite pas encore pleinement dans ses process
             </p>
             <p>
-              <span className={styles.lightblue}></span>&nbsp; L’ensemble des flux existants n’est pas encore intégré dans les logiciels métiers
+              <span className={styles.lightblue}></span>&nbsp; L’ensemble des flux existants n’est
+              pas encore intégré dans les logiciels métiers
             </p>
           </div>
         </div>

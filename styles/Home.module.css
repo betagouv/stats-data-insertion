@@ -91,6 +91,14 @@
   display: inline-block;
 }
 
+.redpoint {
+  background-color: red;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 @media (max-width: 850px) {
   .flexbox {
     display: block;
