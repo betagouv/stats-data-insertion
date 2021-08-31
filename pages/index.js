@@ -41,11 +41,6 @@ export default function Home() {
               <span className={styles.darkblue}></span>&nbsp; Le CD automatise l’intégration de
               l’ensemble des flux et l’exploite dans ses process d’orientation et accompagnement
             </p>
-
-            <p>
-              <span className={styles.darkblue}></span>&nbsp; Le CD automatise l’intégration de
-              l’ensemble des flux et l’exploite dans ses process d’orientation et accompagnement
-            </p>
             <p>
               <span className={styles.middleblue}></span>&nbsp; Le CD intègre l’ensemble des flux
               existants mais ne l’exploite pas encore pleinement dans ses process
@@ -53,6 +48,9 @@ export default function Home() {
             <p>
               <span className={styles.lightblue}></span>&nbsp; L’ensemble des flux existants n’est
               pas encore intégré dans les logiciels métiers
+            </p>
+            <p>
+              <span className={styles.grey}></span>&nbsp; Informations insuffisantes
             </p>
           </div>
         </div>

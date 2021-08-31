@@ -91,6 +91,13 @@
   display: inline-block;
 }
 
+.grey {
+  background-color: #d1d3d4;
+  height: 13px;
+  width: 13px;
+  display: inline-block;
+}
+
 .redpoint {
   background-color: red;
   height: 8px;
